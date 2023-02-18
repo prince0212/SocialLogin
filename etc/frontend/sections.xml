@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Deloitte
+ *
+ * NOTICE OF LICENSE
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * @category  Deloitte
+ * @package   Deloitte_SocialLogin
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Customer:etc/sections.xsd">
+    <action name="sociallogin/popup/create">
+        <section name="checkout-data"/>
+        <section name="cart"/>
+    </action>
+</config>
